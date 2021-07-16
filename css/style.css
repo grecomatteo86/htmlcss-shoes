@@ -3,23 +3,19 @@
   padding: 0;
   box-sizing: border-box;
 }
-
 body{
   font-family: 'Rubik Mono One', sans-serif;
 }
-
 header{
   position: fixed;
   z-index: 1;
   top: 0;
   right: 0;
 }
-
 a{
   padding: 15px;
   display: inline-block;
 }
-
 nav li{
   display: inline-block;
   list-style: none;
@@ -31,47 +27,36 @@ nav li{
   height: 25px;
   position: relative;
 }
-
 section{
   height: 100vh;
   position: relative;
 }
-
-/* section's_colors */
 .diferente{
   background-color: red;
 }
-
 .tommy{
   background-color: green;
 }
-
 .converse{
   background-color: yellow;
 }
-/* section's_colors */
-
 .transform_translate{
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
-
 .container{
   width: 40%;
 }
-
 img{
   width: 100%;
 }
-
 p{
   color: yellow;
   text-align: center;
   font-size: 2vw;
 }
-
 #text_green{
   color: green;
 }
